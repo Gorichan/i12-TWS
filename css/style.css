@@ -1,0 +1,327 @@
+body {
+  font-family: "Open Sans" sans-serif;
+  font-weight: 400;
+  background-color: #11dcb0;
+  color: #f0f0f0;
+  font-size: 25px;
+}
+
+body .container {
+  padding: 20px 0;
+  background-color: #00bf96;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.wrapper-page {
+  overflow: hidden;
+}
+
+.header .wrapper__header {
+  background-image: url(../img/bg__hed.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: top;
+}
+
+.header .wrapper__header .header__titile {
+  background-color: #6a7fdb;
+  padding: 10px;
+  margin-top: 50px;
+}
+
+.header .wrapper__header .header__titile h2 {
+  font-size: 33px;
+  font-weight: 700;
+}
+
+.header .wrapper__header .header__titile h1 {
+  font-size: 44px;
+  font-weight: 700;
+  color: #92ffe8;
+}
+
+.header .wrapper__header .header__titile p {
+  font-size: 28px;
+  font-weight: 400;
+}
+
+.header .wrapper__header .header__content p {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.header .wrapper__header .header__content .header__content-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.header .wrapper__header .header__content .header__content-wrapper span {
+  text-decoration: line-through;
+  -webkit-text-decoration-color: #ff6c00;
+          text-decoration-color: #ff6c00;
+  border-radius: 1px;
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.header .wrapper__header .header__content .header__content-wrapper p {
+  background-color: #fadf63;
+  border-radius: 8px;
+  font-size: 60px;
+  font-weight: 700;
+  color: #000000;
+  margin: 0 10px;
+  padding: 5px;
+}
+
+.header .wrapper__header .header__content .header__content-btn {
+  margin: 30px 0;
+}
+
+.header .wrapper__header .header__content .header__content-btn .btn-primary {
+  color: #f0f0f0;
+  background-color: #f9ad19;
+  -webkit-box-shadow: 0px 4px 7px 0px rgba(0, 0, 0, 0.28);
+          box-shadow: 0px 4px 7px 0px rgba(0, 0, 0, 0.28);
+  border: none;
+  -webkit-transition: all 0.9s;
+  transition: all 0.9s;
+}
+
+.header .wrapper__header .header__content .header__content-btn .btn-primary:hover {
+  border-radius: 50px;
+}
+
+.header .wrapper__header .header__content .header__content-btn .btn {
+  font-size: 41.3px;
+  font-weight: 700;
+  color: #f0f0f0;
+  padding: 0 40px;
+}
+
+.header .wrapper__header .header__vidio {
+  padding-top: 25px;
+  height: 642px;
+  max-width: 1000px;
+  margin: 30px auto;
+}
+
+.description .description__wrapper {
+  background-color: #fadf63;
+  padding: 0 20px;
+}
+
+.description .description__wrapper h2 {
+  margin: 30px 0;
+  text-align: center;
+  font-size: 45px;
+  font-weight: 700;
+  color: #000000;
+}
+
+.description .description__wrapper .description__txt-img {
+  display: block;
+}
+
+.description .description__wrapper .description__txt-img p {
+  float: left;
+  font-size: 25px;
+  color: #000000;
+  margin-bottom: 70px;
+}
+
+.description .description__wrapper .description__txt-img img {
+  padding: 10px;
+  float: right;
+  width: 581px;
+  height: 581px;
+}
+
+.characteristics h2 {
+  font-size: 45px;
+  font-weight: 700;
+  text-align: center;
+  margin: 30px 0;
+}
+
+.characteristics .characteristics__text {
+  padding: 5px;
+  background-color: #6a7fdb;
+}
+
+.characteristics .characteristics__text .characteristics__text-item .characteristics__text-inner {
+  font-size: 23px;
+  font-weight: 400;
+}
+
+.advantages h2 {
+  font-size: 45px;
+  font-weight: 700;
+  text-align: center;
+  margin: 30px 0;
+}
+
+.advantages .advantages__text {
+  background-color: #6a7fdb;
+  padding: 15px;
+  height: 520px;
+}
+
+.advantages .advantages__text p {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.delivery .delivery__wrapper {
+  background-color: #fadf63;
+  padding: 30px;
+}
+
+.delivery .delivery__wrapper h2 {
+  font-size: 45px;
+  font-weight: 700;
+  color: #000000;
+}
+
+.delivery .delivery__wrapper p {
+  font-size: 25px;
+  font-weight: 400;
+  letter-spacing: 0.002em;
+  color: #000000;
+}
+
+.delivery .delivery__wrapper p span {
+  font-weight: 700;
+}
+
+.footer .form__wrap {
+  background-color: #0065a6;
+  color: #fff;
+  padding: 50px 15px;
+}
+
+.footer .form__wrap h2 {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 50px;
+}
+
+.footer .form__wrap .form_btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 20px;
+}
+
+.footer .form__wrap .form_btn .btn {
+  font-size: 30px;
+  color: white;
+  text-transform: uppercase;
+  padding: 3px 30px;
+  background-color: #ec841e;
+  font-weight: bold;
+  -webkit-transform: 0.2s;
+  transform: 0.2s;
+  border: none;
+  -webkit-transition: all 0.9s;
+  transition: all 0.9s;
+}
+
+.footer .form__wrap .form_btn .btn:hover {
+  border-radius: 50%;
+  padding: 3px 30px;
+}
+
+.footer form {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.footer .form-group {
+  max-width: 585px;
+  margin: 0 auto;
+  text-align: left;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.footer .form-group input::-webkit-input-placeholder {
+  font-size: 24px;
+  font-weight: 700;
+  color: #494646;
+}
+
+.footer .form-group input:-ms-input-placeholder {
+  font-size: 24px;
+  font-weight: 700;
+  color: #494646;
+}
+
+.footer .form-group input::-ms-input-placeholder {
+  font-size: 24px;
+  font-weight: 700;
+  color: #494646;
+}
+
+.footer .form-group input::placeholder {
+  font-size: 24px;
+  font-weight: 700;
+  color: #494646;
+}
+
+.footer .footer__sub {
+  background-color: #00bf96;
+}
+
+.footer .footer__sub p {
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.footer .footer__sub p a {
+  margin-bottom: 5px;
+}
+
+/* thx */
+.header .header__titile-thx {
+  margin-top: 100px;
+  background-color: #6a7fdb;
+}
+
+.header .header__titile-thx p {
+  font-size: 33px;
+  font-weight: 700;
+}
+
+.header .header__content-thx P {
+  font-size: 33px;
+  font-weight: 700;
+}
+/*# sourceMappingURL=style.css.map */

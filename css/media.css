@@ -1,0 +1,162 @@
+/* @media (max-width: 360px) */
+
+@media (max-width: 988px) {
+  .header .wrapper__header .header__titile h2 {
+    font-size: 30px;
+  }
+  .header .wrapper__header .header__titile h1 {
+    font-size: 34px;
+  }
+  .header .wrapper__header .header__titile p {
+    font-size: 17px;
+    font-weight: 400;
+  }
+  .description__wrapper .description__txt-img img {
+    width: 400px !important;
+    height: auto !important;
+  }
+  .description .description__wrapper .description__txt-img p {
+    font-size: 20px;
+  }
+  .advantages .advantages__text p {
+    line-height: 1;
+  }
+}
+
+@media (max-width: 768px) {
+  .header .wrapper__header .header__titile {
+    background-color: unset;
+    margin-top: 90px;
+  }
+  .header .wrapper__header .header__titile h2 {
+    font-size: 25px;
+  }
+  .header__titile h1 {
+    font-size: 30px !important;
+    font-weight: 700;
+    color: #6a7fdb !important;
+  }
+  .description__wrapper .description__txt-img img {
+    width: 249px !important;
+    height: auto !important;
+  }
+  .description__wrapper .description__txt-img p {
+    font-size: 20px !important;
+  }
+  .advantages .advantages__text p {
+    font-size: 18px;
+  }
+  .header .header__titile-thx {
+    margin-top: 100px;
+    width: 265px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 120px;
+  }
+  .header .header__titile-thx p {
+    font-size: 22px;
+    font-weight: 700;
+  }
+  .header .header__content-thx P {
+    font-size: 19px;
+    font-weight: 700;
+}
+}
+
+@media (max-width: 480px) {
+  body {
+    font-size: 16px;
+  }
+  .header .wrapper__header .header__titile {
+    background-color: unset;
+    margin-top: 90px;
+  }
+  .header__titile h1 {
+    font-size: 27px !important;
+    font-weight: 700;
+    color: #6a7fdb !important;
+  }
+  .header .wrapper__header .header__titile p {
+    font-size: 19px;
+  }
+  .header .wrapper__header .header__content p {
+    font-size: 22px;
+  }
+  .header .wrapper__header .header__content .header__content-wrapper p {
+    font-size: 30px;
+  }
+  .header .wrapper__header .header__content .header__content-wrapper span {
+    font-size: 30px;
+  }
+  .header .wrapper__header .header__vidio {
+    height: 300px;
+    margin: 10px;
+  }
+  .description .description__wrapper h2 {
+    font-size: 30px;
+  }
+  .description .description__wrapper .description__txt-img img {
+    height: 300px;
+  }
+  .description .description__wrapper .description__txt-img p {
+    text-align: center;
+    font-size: 16px;
+  }
+  .characteristics h2 {
+    font-size: 35px;
+  }
+  .characteristics .characteristics__text {
+    margin: 10px;
+  }
+  .characteristics
+    .characteristics__text
+    .characteristics__text-item
+    .characteristics__text-inner {
+    font-size: 18px;
+  }
+  .advantages h2 {
+    font-size: 36px;
+  }
+  .advantages .advantages__text {
+    margin: 10px;
+    height: 400px;
+  }
+  .advantages .advantages__text p {
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+  }
+  .delivery .delivery__wrapper h2 {
+    font-size: 30px;
+  }
+  .delivery .delivery__wrapper p {
+    font-size: 15px;
+  }
+
+  .footer .form__wrap h2 {
+    font-size: 30px;
+  }
+  .footer .form-group {
+    font-size: 15px;
+  }
+  .header__img-thx {
+    margin-top: 90px;
+  }
+
+  .header .header__titile-thx {
+    display: block;
+    margin: 0 auto;
+    width: 253px;
+    margin-top: 76px;
+  }
+  .header .header__titile-thx p {
+    font-size: 20px;
+  }
+  .header .header__content-thx P {
+    font-size: 17px;
+  }
+}
+
+@media (max-width: 320px) {
+}
